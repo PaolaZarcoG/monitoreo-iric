@@ -1,0 +1,28 @@
+{
+  "name": "server-monitor-remote",
+  "version": "1.0.0",
+  "description": "Monitor de servidor en tiempo real con acceso remoto vía LocalTunnel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "monitoring",
+    "server",
+    "real-time",
+    "localtunnel",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "systeminformation": "^5.21.20",
+    "localtunnel": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
